@@ -1,0 +1,49 @@
+@media screen and (max-width: 1080px){
+    #mini_nav{
+        display: block;
+    }
+    
+    #nav22{
+        display: none;
+    }
+    
+    .intro-txt{
+        font-size: 25px;
+    }
+    
+    .column{
+        flex: 50%;
+        max-width: 100%;
+    }
+    
+    .column img{
+        height: 300px;
+    }
+    
+    .column2{
+        flex: 50%;
+        max-width: 50%;
+    }
+    
+    .column3{
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+    footer{
+        text-align: center;
+    }
+    
+    #ceoName{
+        width: 200px;
+    }
+
+}
+
+
+
+
+
+
+
+

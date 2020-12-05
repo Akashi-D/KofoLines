@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.column3{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 20px;
+}
+
+.column3 p{
+    font-family: cursive;
+}
+
+.column3 img{
+    margin-top: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px #000;
+    vertical-align: middle;
+    max-width: 1000px;
+}
+
+.column3 img:hover{
+    opacity: 0.7;
+}
+
+
+
+
+/************ About Page **************/
+
+#ceoImg{
+    margin-top: -100px;
+}
+
+h1{
+    position: absolute;
+    margin-left: 50px;
+}
+
+#ceoName{
+    position: absolute;
+    margin-left: 20px;
+    width: 200px;
+    float: right;
+    margin-top: 100px;
+}
+
+
+/************ Contact Page **************/
+
+#contacting{
+    text-align: center;
+}
+
+form p{
+    height: 100px;
+}
+
+form p label{
+    font-size: 30px;
+}
+
+input{
+    height: 50px;
+    width: 300px;
+}
+
+.submit0{
+    width: 200px;
+    background-color: pink;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin-top: -500px;
+}
+
+.submit0:hover{
+    background-color: white;
+    color: pink;
+}
